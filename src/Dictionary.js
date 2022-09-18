@@ -27,7 +27,7 @@ setKeyword(event.target.value)
     return (
         <div className="Dictionary">
             <form onSubmit={search}>
-                <input type="search" autofocus={true} onChange={handleKeywordChange}/>
+                <input type="search" autoFocus={true} onChange={handleKeywordChange}/>
             </form>
             <Results results={results} />
         </div>
