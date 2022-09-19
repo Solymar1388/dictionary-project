@@ -15,7 +15,7 @@ export default function App() {
           <small>
             <a href="https://github.com/Solymar1388/dictionary-project">
               Open-source сode
-            </a>
+            </a> {""}
             by Olesia Libra
           </small>
         </footer>
