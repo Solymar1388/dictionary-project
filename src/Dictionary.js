@@ -58,7 +58,7 @@ if(loaded) {
             />
           </form>
           <div className="hint">
-            suggested words: sun, wine, yoga, plant...
+            suggested words: love, wine, yoga, plant...
           </div>
         </section>
         <Results results={results} />
