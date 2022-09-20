@@ -1,4 +1,6 @@
+import logo from './logo.png';
 import './App.css';
+
 import Dictionary from './Dictionary';
 
 export default function App() {
@@ -6,7 +8,14 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1 className="title text-center letter-capitalized">English Dictionary</h1>
+          <h1 className="title text-center letter-capitalized">
+            Welcome to English Dictionary
+          </h1>
+          <img
+            src={logo}
+            class="img-fluid App-logo"
+            alt="logo"
+          ></img>
         </header>
         <main>
           <Dictionary defaultKeyword="waterfall" />
@@ -15,7 +24,8 @@ export default function App() {
           <small>
             <a href="https://github.com/Solymar1388/dictionary-project">
               Open-source сode
-            </a> {""}
+            </a>{' '}
+            {''}
             by Olesia Libra
           </small>
         </footer>
@@ -23,5 +33,3 @@ export default function App() {
     </div>
   );
 }
-
-

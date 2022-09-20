@@ -1,7 +1,8 @@
 .Meaning h3 {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 1.5;
     font-weight: bold;
+    text-shadow: 1px 1px 1px #02cddb;
 }
 
 .Meaning .definition {
@@ -9,7 +10,7 @@
 }
 
 .Meaning .example {
-    color: #70757a;
+    color: #03767e;
     font-style: italic;
     margin-left: 30px;
 }

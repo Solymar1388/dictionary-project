@@ -52,10 +52,8 @@ if(loaded) {
           <form onSubmit={handleSubmit}>
             <input
               type="search"
-              autoFocus={true}
               onChange={handleKeywordChange}
               placeholder="Enter a word..."
-              // defaultValue={props.defaultKeyword}
             />
           </form>
         </section>
