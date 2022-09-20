@@ -6,18 +6,23 @@
     margin: 20px 0;
 }
 
+.Dictionary form {
+    text-align: center;
+}
+
 .Dictionary h1 {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .Dictionary input {
     color: #333;
-    width: 100%;
+    width: 50%;
     padding: 6px 10px;
     border: 1px solid #ddd;
-    border-radius: 6px;
+    border-radius: 30px;
 }
 
 .Dictionary .hint {

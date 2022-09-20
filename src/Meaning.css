@@ -4,8 +4,12 @@
     font-weight: bold;
 }
 
+.Meaning .definition {
+    margin: 5px 0;
+}
+
 .Meaning .example {
     color: #70757a;
     font-style: italic;
-    margin-top: 10px;
+    margin-left: 30px;
 }

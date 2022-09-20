@@ -19,3 +19,8 @@ a {
 .App-footer {
   margin: 30px 0;
 }
+
+.App .title {
+  font-size: 46px;
+  font-weight: 700;
+}

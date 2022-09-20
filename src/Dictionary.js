@@ -48,18 +48,16 @@ if(loaded) {
     return (
       <div className="Dictionary">
         <section>
-          <h1>What word do you want to look up?</h1>
+          <h1>What word are you looking for?</h1>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
               autoFocus={true}
               onChange={handleKeywordChange}
-              defaultValue={props.defaultKeyword}
+              placeholder="Enter a word..."
+              // defaultValue={props.defaultKeyword}
             />
           </form>
-          <div className="hint">
-            suggested words: love, wine, yoga, plant...
-          </div>
         </section>
         <Results results={results} />
         <Photos photos={photos} />
